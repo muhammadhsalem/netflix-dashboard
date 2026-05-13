@@ -31,7 +31,7 @@ The raw Netflix dataset was normalized into **6 related tables** using Power Que
 | `netflix country_released` | country.csv | show_id, country_1 ... country_12 | Azure Map |
 | `netflix cast` | cast.csv | show_id, cast_1 ... cast_50 | Cast pivot table |
 | `netflix director` | director.csv | show_id, director_1 ... director_13 | Director pivot table |
-| `netflix description` | description.csv | show_id, description | Not used — unstructured text |
+| `netflix description` | description.csv | show_id, description | Page 2 — description card (displays show/movie synopsis on selection) |
 
 > All tables linked back to `netflix info` via show_id
 ---
@@ -47,13 +47,15 @@ The raw Netflix dataset was normalized into **6 related tables** using Power Que
 | Shows by Rating | Column chart | rating, COUNT(show_id), type (Movie/TV Show) |
 
 ### Page 2 — Detail / Explorer
+
 | Visual | Type | Fields |
 |---|---|---|
 | Countries' Shows count | Azure Map | country, COUNT(show_id) |
 | Rating | Card | rating |
 | Release Year | Card | release_year |
+| Description | Card | description (updates dynamically based on selected title) |
 | Movie/TV Show | Slicer | title (filtered by type) |
-| Genre table | Pivot table | category |
+| Genre table | Pivot table | listed_in |
 | Director table | Pivot table | director |
 | Cast table | Pivot table | cast |
 
