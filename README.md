@@ -27,8 +27,8 @@ The raw Netflix dataset was normalized into **6 related tables** using Power Que
 | Table | File | Key columns | Used in visuals |
 |---|---|---|---|
 | `netflix info` | info.csv | show_id, type, title, date_added, release_year, rating, duration | All pages |
-| `netflix listed_in` | listed_in.csv | show_id, listed_in_1/2/3 | Top 10 Genres chart |
-| `netflix country` | country.csv | show_id, country_1 ... country_12 | Azure Map |
+| `netflix category` | listed_in.csv | show_id, listed_in_1/2/3 | Top 10 Genres chart |
+| `netflix country_released` | country.csv | show_id, country_1 ... country_12 | Azure Map |
 | `netflix cast` | cast.csv | show_id, cast_1 ... cast_50 | Cast pivot table |
 | `netflix director` | director.csv | show_id, director_1 ... director_13 | Director pivot table |
 | `netflix description` | description.csv | show_id, description | Not used — unstructured text |
