@@ -23,18 +23,18 @@ A 2-page interactive dashboard analyzing Netflix titles across genres, countries
 *Normalized star-schema: netflix info (fact) linked to category,
 country_released, cast, director via show_id*
 
-The raw Netflix dataset was split and normalized into **6 related tables** using Power Query:
+The raw Netflix dataset was normalized into **6 related tables** using Power Query:
 
-| Table | Key columns |
-|---|---|
-| `netflix info` | show_id, title, type, rating, date_added, release_year, description |
-| `netflix category` | category (genre) |
-| `netflix country_released` | country |
-| `netflix cast` | cast |
-| `netflix director` | director |
+| Table | File | Key columns | Used in visuals |
+|---|---|---|---|
+| `netflix info` | data/info.csv | show_id, type, title, date_added, release_year, rating, duration | All pages |
+| `netflix listed_in` | listed_in.csv | show_id, listed_in_1/2/3 | Top 10 Genres chart |
+| `netflix country` | country.csv | show_id, country_1 ... country_12 | Azure Map |
+| `netflix cast` | cast.csv | show_id, cast_1 ... cast_50 | Cast pivot table |
+| netflix director | data/director.csv | show_id, director_1 ... director_13 | Director pivot table |
+| `netflix description` | data/description.csv | show_id, description | Not used — unstructured text |
 
-> Power Query was used to unpack multi-value fields (genres, countries, cast) into separate normalized tables — a proper star-schema model rather than a flat file.
-
+> All tables linked back to `netflix info` via show_id
 ---
 
 ## Dashboard Pages
