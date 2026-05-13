@@ -1,3 +1,5 @@
+<img width="1808" height="1021" alt="Screenshot 2026-05-13 193732" src="https://github.com/user-attachments/assets/36099a77-7cca-49b2-9661-9a9b452883d8" />
+<img width="1803" height="1018" alt="Screenshot 2026-05-13 193652" src="https://github.com/user-attachments/assets/5d414298-f7e9-472f-bbc6-1ec8b46d689e" />
 # Netflix Content Analysis Dashboard
 ### Tools: Excel · Power Query · Power BI
 
@@ -11,7 +13,7 @@ A 2-page interactive dashboard analyzing Netflix titles across genres, countries
 
 | Page | Description |
 |---|---|
-| `<img width="1808" height="1021" alt="Screenshot 2026-05-13 193732" src="https://github.com/user-attachments/assets/508febf7-270a-4cce-ba80-293160194f25" />` | Overview page — trends, genres, map, ratings |
+| <img width="1808" height="1021" alt="Screenshot 2026-05-13 193732" src="https://github.com/user-attachments/assets/508febf7-270a-4cce-ba80-293160194f25" /> | Overview page — trends, genres, map, ratings |
 | `<img width="1803" height="1018" alt="Screenshot 2026-05-13 193652" src="https://github.com/user-attachments/assets/5c073ac8-7be4-4290-aee7-38b3cf7d77f8" />` | Detail page — cards, pivot tables, country map |
 
 ---
