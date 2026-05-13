@@ -80,4 +80,7 @@ The raw Netflix dataset was split and normalized into **6 related tables** using
 
 | File | Description |
 |---|---|
-| <iframe title="netflix_dashboard" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZWI5MDhmNzQtYzM0OS00NmNiLWEzY2MtMjFhNzdkYmVhZWQ4IiwidCI6ImVhZjYyNGM4LWEwYzQtNDE5NS04N2QyLTQ0M2U1ZDc1MTZjZCIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe> | Full Power BI file live (data model + all visuals) |
+| `screenshots/overview.png` | Page 1 — trends, genres, map, ratings |
+| `screenshots/detail_explorer.png` | Page 2 — cards, pivot tables, country map |
+
+**[▶ View live dashboard on Power BI](https://app.powerbi.com/view?r=eyJrIjoiZWI5MDhmNzQtYzM0OS00NmNiLWEzY2MtMjFhNzdkYmVhZWQ4IiwidCI6ImVhZjYyNGM4LWEwYzQtNDE5NS04N2QyLTQ0M2U1ZDc1MTZjZCIsImMiOjh9)**
