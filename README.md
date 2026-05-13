@@ -80,5 +80,4 @@ The raw Netflix dataset was split and normalized into **6 related tables** using
 
 | File | Description |
 |---|---|
-| `[Uploading netflix_dashboard.pbix…]()` | Full Power BI file (data model + all visuals) |
-| `screenshots/` | Page-by-page dashboard screenshots |
+| <iframe title="netflix_dashboard" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZWI5MDhmNzQtYzM0OS00NmNiLWEzY2MtMjFhNzdkYmVhZWQ4IiwidCI6ImVhZjYyNGM4LWEwYzQtNDE5NS04N2QyLTQ0M2U1ZDc1MTZjZCIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe> | Full Power BI file live (data model + all visuals) |
