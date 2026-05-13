@@ -18,6 +18,11 @@ A 2-page interactive dashboard analyzing Netflix titles across genres, countries
 
 ## Data Model
 
+![Star schema — 6 related tables](screenshots/dataModel.png)
+
+*Normalized star-schema: netflix info (fact) linked to category,
+country_released, cast, director via show_id*
+
 The raw Netflix dataset was split and normalized into **6 related tables** using Power Query:
 
 | Table | Key columns |
