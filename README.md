@@ -1,5 +1,5 @@
 # Netflix Content Analysis Dashboard
-### Tools: Excel · Power Query · Power BI
+### Tools: MySQL · Excel · Power Query · Power BI
 
 A 2-page interactive dashboard analyzing Netflix titles across genres, countries, ratings, and content type — built on a normalized star-schema data model with 6 related tables.
 
