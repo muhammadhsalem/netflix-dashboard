@@ -14,6 +14,20 @@ A 2-page interactive dashboard analyzing Netflix titles across genres, countries
 | ![Detail](screenshots/detail.png) | Detail page — cards, pivot tables, country map |
 
 ---
+## SQL — Data Normalization Queries
+
+Before loading into Power BI, the raw wide-format CSV tables were 
+normalized in MySQL using UNION-based queries to unpivot multi-value 
+columns into clean long-format tables.
+
+| File | What it does |
+|---|---|
+| `sql/create_listed_in_table.sql` | Unpivots 3 genre columns → one row per genre |
+| `sql/create_directors_table.sql` | Unpivots 13 director columns → one row per director |
+| `sql/create_countries_table.sql` | Unpivots 12 country columns → one row per country |
+| `sql/create_cast_table.sql` | Unpivots 50 cast columns → one row per cast member |
+
+> See the `sql/` folder for all query files.
 
 ## Data Model
 
